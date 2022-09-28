@@ -2,11 +2,11 @@
 import React from 'react'
 import './Sidebaroptions.css'
 
-const SidebarOptions = ({src,title}) => {
+const SidebarOptions = (props) => {
   return (
     <div className="sidebar-row">
-        {src && <img src={src}/>}
-        <p>{title}</p>
+        <img src={props.src}  />
+        <p>{props.title}</p>
     </div>
   )
 }

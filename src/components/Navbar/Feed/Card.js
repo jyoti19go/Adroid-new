@@ -1,20 +1,21 @@
 import React from 'react'
 import './Card.css'
+import sdata from './sdata.json'
 
 const Card = (props) => {
     return (
         <div className="card">
             <div className="card-top">
                 <div className="cardtop-left">
-                    <img src="./images/fpic1.png" alt="" />
+                    <img src={props.imgsrc} alt="" />
                     <div className="intro">
                         <div className='intro-name'>
-                            <h2>Zach Hiwai</h2>
+                            <h2>{props.uname}</h2>
                             <img src="./images/dot.png" alt="" />
                             <span>Follow</span>
                         </div>
                         <div className="about">
-                            <p>Educator at Modern High School</p>
+                            <p>{props.about}</p>
                         </div>
                     </div>
 
@@ -25,18 +26,18 @@ const Card = (props) => {
                 </div>
             </div>
             <div className="card-mid">
-                <p>Researchers developed a machine learning model capable of estimating national weekly opioid overdose mortality trends in near real-time using proxy data sources such as public health information and law enforcement data.</p>
-                <img src="./images/main2.png" alt="" />
+                <p>{props.intro}</p>
+                <img src={props.mainimg} alt="" />
             </div>
-            <br />
+            <div className='line'></div>
             <div className="card-bottom">
-                <img src="./images/pic.png" alt="" />
+                <img className='cmnt-img' src="./images/pic.png" alt="" />
                 <div className="comment">
                     <form action="">
-                    <input className='cardinput' type="text" placeholder='Add comment ...' />
+                        <input className='cardinput' type="text" placeholder='Add comment ...' />
                     </form>
-                    <img src="./images/emoji.png" alt="" />
-                    <img src="./images/pictures.png" alt="" />
+                    <img className='emoji' src="./images/emoji.png" alt="" />
+                    <img className='pictures' src="./images/pictures.png" alt="" />
                 </div>
                 <div className="share">
                     <img src="./images/clap.png" alt="" />

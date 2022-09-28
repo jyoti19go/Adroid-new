@@ -1,5 +1,4 @@
 import React from "react";
-import './App.css';
 import { Stack } from "@mui/material";
 import Navbar from "./components/Navbar/Navbar"
 import Sidebar from "./components/Navbar/Sidebar/Sidebar";
