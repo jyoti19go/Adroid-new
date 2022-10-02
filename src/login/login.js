@@ -41,7 +41,7 @@ const login = () => {
                                     <p>Forgot Password?</p>
                                 </div>
                             </div>
-                            <input type="submit" className='loginbtn' value="Login" />
+                           <NavLink to="/home"><input type="submit" className='loginbtn' value="Login" /></NavLink>
                             <div className="register">
                                 <p>Not Registered Yet?</p>
                                 <li><NavLink to="/signup">Create an account</NavLink></li>

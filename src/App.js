@@ -1,9 +1,6 @@
 import React from "react";
-import { Stack } from "@mui/material";
-import HomeNavbar from "./homepage/HomeNavbar/Navbar"
-import Sidebar from "./homepage/Sidebar/Sidebar";
-import Feed from "./homepage/Feed/Feed";
-import Rightbar from "./homepage/Rightbar/Rightbar";
+
+import Home from "./homepage/home";
 import Navbar from './components/Navbar/index'
 import Footer from './components/Footer/Footer';
 import Intro from './components/Introduction/Intro';
@@ -24,16 +21,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/home" element={
-            <>
-            <HomeNavbar/>
-            <Stack direction="row" >
-            <div>
-              <Sidebar/>
-            </div>
-            <Feed/>
-            <Rightbar/>
-            </Stack>
-            </>
+            <Home/>
           }>
           </Route>
           <Route exact path='/' element={
