@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sortform{
+    display: flex;
+    
+}
+
+#popular{
+    width: 200px;
+height: 44px;
+color: antiquewhite;
+border: 1px solid #E6E6E6;
+padding: 10px 24px;
+gap: 40px;
+}
