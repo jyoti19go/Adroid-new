@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
 }
 
 .main-work{
+    font-family: 'Poppins';
     margin-top: 1000px;
     display: flex;
     flex-direction: column;
@@ -12,10 +14,12 @@
 }
 
 .heading{
+    font-family: 'Poppins';
     padding: 40px;
 }
 
 .heading h1{
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 42px;
     line-height: 63px;
@@ -24,9 +28,11 @@
 
 .heading h1 span{
     color: #1AB586;
+    font-family: 'Poppins';
 }
 
 .heading p{
+    font-family: 'Poppins';
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
@@ -36,8 +42,8 @@
 
 .line{
     position: absolute;
-    top: 3120px;
-    margin-left:-100px;
+    top: 3185px;
+    margin-left:-80px;
     margin-right: 0px;
 }
 
