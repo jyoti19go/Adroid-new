@@ -4,6 +4,7 @@
 }
 
 .main-miss {
+  font-family: 'Poppins';
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2px;
@@ -18,12 +19,14 @@
 }
 
 .miss-left {
+  font-family: 'Poppins';
   margin-top: 312px;
   margin-left: 40px;
   z-index: 2;
 }
 
 .miss-left .one1 {
+  font-family: 'Poppins';
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,6 +37,7 @@
 }
 
 .miss-left .two2 {
+  font-family: 'Poppins';
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +48,7 @@
 }
 
 .miss-left .para1 {
+  font-family: 'Poppins';
   width: 388px;
   height: 82px;
   background: rgba(44, 42, 42, 0.18);
@@ -54,6 +59,7 @@
 }
 
 .miss-left .para2 {
+  font-family: 'Poppins';
   width: 474px;
   height: 132px;
   left: 905px;
@@ -66,6 +72,7 @@
 }
 
 .miss-left .one {
+  font-family: 'Poppins';
   width: 74px;
   height: 74px;
   background: #1ab586;
@@ -80,6 +87,7 @@
 }
 
 .miss-left .two {
+  font-family: 'Poppins';
   width: 74px;
   height: 74px;
   background: #1ab586;
@@ -94,6 +102,7 @@
 }
 
 .miss-left p {
+  font-family: 'Poppins';
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -102,12 +111,14 @@
 }
 
 .miss-center {
+  font-family: 'Poppins';
   text-align: center;
   z-index: 1;
 }
 
 
 .miss-center h1 {
+  font-family: 'Poppins';
   padding-top: 64px;
   font-weight: 600;
   font-size: 42px;
@@ -115,20 +126,24 @@
 }
 
 .miss-center .vision {
+  font-family: 'Poppins';
   color: #dc3545;
 }
 
 .miss-center .mission {
+  font-family: 'Poppins';
   color: #1ab586;
 }
 
 .miss-right {
+  font-family: 'Poppins';
   margin-top: 312px;
   margin-right: 100px;
   z-index: 2;
 }
 
 .miss-right p {
+  font-family: 'Poppins';
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -137,6 +152,7 @@
 }
 
 .miss-right .three {
+  font-family: 'Poppins';
   width: 74px;
   height: 74px;
   background: #1ab586;
@@ -151,6 +167,7 @@
 }
 
 .miss-right .four {
+  font-family: 'Poppins';
   width: 74px;
   height: 74px;
   background: #1ab586;
@@ -165,6 +182,7 @@
 }
 
 .miss-right .para3 {
+  font-family: 'Poppins';
   width: 388px;
   height: 82px;
   left: 240px;
@@ -177,6 +195,7 @@
 }
 
 .miss-right .para4 {
+  font-family: 'Poppins';
   width: 474px;
   height: 132px;
   left: 905px;
@@ -189,6 +208,7 @@
 }
 
 .miss-right .three3 {
+  font-family: 'Poppins';
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,6 +219,7 @@
 }
 
 .miss-right .four4 {
+  font-family: 'Poppins';
   display: flex;
   justify-content: center;
   align-items: center;

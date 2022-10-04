@@ -3,6 +3,7 @@ import "./Courses.css";
 import Navbar from "../homepage/HomeNavbar/Navbar";
 import Products from "./Products";
 import Product from "./Product";
+import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 
 const Courses = () => {
   return (
@@ -14,7 +15,9 @@ const Courses = () => {
           <h1>Courses</h1>
           <div className="course-inp">
             <div className="course-search">
-              <img src="./images/search-course.png" alt="" />
+              <div className="work-icon">
+                <WorkOutlineIcon/>
+              </div>
               <p>Search Courses</p>
             </div>
             <div className="search-btn">

@@ -5,6 +5,7 @@
 }
 
 .nav-main{
+    font-family: 'Poppins';
     width: 100%;
     height: 72px;
     display: flex;
@@ -16,6 +17,7 @@
 }
 
 .nav-left{
+    font-family: 'Poppins';
     padding: 8px;
     margin: 16px;
     font-weight: 400;
@@ -27,7 +29,8 @@
 }
 
 
-.nav-center{    
+.nav-center{   
+    font-family: 'Poppins'; 
     list-style: none;
     display: flex;
     flex: 1;
@@ -39,6 +42,7 @@
 }
 
 .nav-list ul{
+    font-family: 'Poppins';
     list-style: none;
     display: flex;
     gap: 4rem;
@@ -60,10 +64,11 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    
+    font-family: 'Poppins';
 
 }
 .nav-right ul{
+    font-family: 'Poppins';
     list-style: none;
     text-decoration: none;
     display: flex;
@@ -81,11 +86,13 @@
 }
 
 .nav-right ul li{
+    font-family: 'Poppins';
     text-decoration: none;
     list-style-type:none ;
 }
 
 .nav-right .join{
+    font-family: 'Poppins';
     background-color: #DC3545;
     color: white;
     align-items: center;

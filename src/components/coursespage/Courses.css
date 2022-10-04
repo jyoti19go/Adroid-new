@@ -64,6 +64,12 @@ margin-left: 10px;
 color: #FFFFFF;
 }
 
+.work-icon{
+  margin-left: 19px;
+  margin-bottom: -5px;
+  color: white;
+}
+
 .search-btn button{
   padding: 16px 45px;
   background-color: white;
